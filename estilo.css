@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Kaushan Script";
+    src: url("kaushan-script/KaushanScript-Regular.otf");
+}
+
+body{
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#cabecalho {
+    background-color: #6175f0;
+    color: white;
+}
+
+.referencia {
+    font-style: italic;
+}
+
+#cavalo{
+    float: left;
+    width: 310px;
+    padding-right: 13px;
+}
+
+h1 {
+    size: 36px;
+    font-family: "Kaushan Script", sans-serif;
+    padding-top: 20px;
+    padding-left: 34px;
+}
+
+h2 {
+    size: 24px;
+    font-family: 'Times New Roman', Times;
+    padding-bottom: 13px;
+    padding-left: 34px;
+}
+
+#verdade{
+
+}
+
+img{
+    height: 112px;
+    width: 112px;
+}
+
+#hoje {
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    margin-right: 25px;
+    align-items: center;
+    width: 405px;
+    background-color: #f8cef7;
+    border: 1px solid #ff56fb;
+    float: right;
+}
