@@ -6,12 +6,18 @@
 body{
     font-family: Arial, Helvetica;
     font-size: 14px;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#verdarde p{
+    padding-top: 0px;
+    float: right;
 }
 
 #cabecalho {
     background-color: #6175f0;
     color: white;
+    margin-top: 0px;
 }
 
 .referencia {
@@ -22,6 +28,7 @@ body{
     float: left;
     width: 310px;
     padding-right: 13px;
+    height: 210px;
 }
 
 h1 {
@@ -34,12 +41,11 @@ h1 {
 h2 {
     size: 24px;
     font-family: 'Times New Roman', Times;
-    padding-bottom: 13px;
     padding-left: 34px;
 }
 
-#verdade{
-
+#cabecalho h2 {
+    padding-bottom: 12px;
 }
 
 img{
@@ -47,15 +53,32 @@ img{
     width: 112px;
 }
 
+#title {
+    padding-left: 12px;
+}
+
 #hoje {
+    text-align: center;
     padding-top: 20px;
     padding-right: 35px;
     padding-left: 35px;
     padding-bottom: 30px;
     margin-right: 25px;
-    align-items: center;
     width: 405px;
     background-color: #f8cef7;
     border: 1px solid #ff56fb;
     float: right;
+}
+
+.destacado {
+    background-color: #c4caf3;
+    color: #004a79;
+}
+
+.primeiro {
+    margin-left: 12px;
+}
+
+.segundo  {
+    margin-left: 34px;
 }
